@@ -1,0 +1,10 @@
+.container {
+    background-color: #ffc0cb;
+    color: black;
+    margin-top: 100px;
+}
+
+[class*="col-xs"] {
+    border: 1px solid black;
+    height: 150px;
+}
