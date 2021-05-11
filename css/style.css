@@ -2,9 +2,24 @@
     background-color: #ffc0cb;
     color: black;
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+[class*="col"] {
+    border: 1px solid black;
+    height: 150px;
+}
+
+[class*="col"] >.row >[class*="col-xs"] {
+    background-color: #f07f80;
+    border: 3px solid #ffc0cb;
+    
+   
+    
 }
 
 [class*="col-xs"] {
-    border: 1px solid black;
-    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    
 }
